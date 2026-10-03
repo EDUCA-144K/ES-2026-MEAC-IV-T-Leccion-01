@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lección 1 – El Creador habla | Guía MEAC Interactiva</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f4f7f9; padding:20px; position:relative }
+    h1 { text-align:center; color:#2c3e50 }
+    .versiculo { background:#fff; border-left:5px solid #34495e; padding:15px; margin-bottom:20px; font-style:italic }
+    .boton, .sub-boton, .volver { display:flex; align-items:center; gap:10px; width:100%; padding:15px; margin:10px 0; font-size:16px; background:#3498db; color:#fff; border:none; border-radius:8px; cursor:pointer; text-align:left }
+    .sub-boton{ background:#27ae60 }
+    .volver{ background:#7f8c8d }
+    .boton:hover, .sub-boton:hover, .volver:hover{ opacity:.9 }
+    .contenido, .sub-contenido{ display:none; padding:15px; background:#fff; border:2px solid #2980b9; border-radius:8px; margin-bottom:20px }
+    .color-dot{ width:14px; height:14px; border-radius:50%; display:inline-block }
+    .dot-yellow{ background:yellow }
+    .dot-blue{ background:navy }
+    .dot-green{ background:green }
+    .dot-red{ background:red }
+    ul{ margin-top:10px }
+    .marca{ position:fixed; bottom:10px; right:20px; color:#888; font-weight:bold }
+    .ejemplo{ color:#555; font-style:italic; margin-top:8px }
+    .desarrollo{ margin-top:6px; color:#333; font-size:14px }
+    .nota{ font-size:13px; color:#555; margin-top:8px }
+  </style>
+</head>
+<body>
+  <h1>Lección 1: El Creador habla – Guía Interactiva MEAC</h1>
+
+  <div class="versiculo">
+    «En el pasado, Dios habló muchas veces y de muchas maneras a nuestros padres mediante los profetas; pero en estos últimos días nos habló por su Hijo, a quien constituyó heredero de todo, por medio de quien hizo el universo»<br/>
+    <strong>Hebreos 1:1-2</strong>
+  </div>
+
+  <div id="inicio">
+    <button class="boton" onclick="mostrarSeccion('motiva')"><span class="color-dot dot-yellow"></span> MOTIVA – Mueve el corazón</button>
+    <button class="boton" onclick="mostrarSeccion('explora')"><span class="color-dot dot-blue"></span> EXPLORA – Escudriña la Palabra</button>
+    <button class="boton" onclick="mostrarSeccion('aplica')"><span class="color-dot dot-green"></span> APLICA – Analiza tu comunión con Dios</button>
+    <button class="boton" onclick="mostrarSeccion('crea')"><span class="color-dot dot-red"></span> CREA – Comparte y testifica</button>
+  </div>
+
+  <div id="motiva" class="contenido">
+    <button class="sub-boton" onclick="mostrarDetalle('motiva1')">❓ Pregunta inicial</button>
+    <button class="sub-boton" onclick="mostrarDetalle('motiva2')">🤝 Actividad grupal</button>
+    <button class="volver" onclick="volverInicio()">⬅️ Volver</button>
+  </div>
+
+  <div id="motiva1" class="sub-contenido">
+    <p><strong>Pregunta:</strong> Cuando necesitas escuchar la voz de Dios, ¿qué te ayuda más: leer la Biblia, observar cómo actuó Jesús, recordar una promesa, contemplar la creación o recibir una orientación espiritual basada en la Palabra? ¿Por qué?</p>
+    <p class="ejemplo">Ejemplo 1: “La Biblia me ayuda porque allí puedo comparar mis pensamientos con lo que Dios realmente ha revelado”.</p>
+    <p class="ejemplo">Ejemplo 2: “Observar la vida de Jesús me permite comprender mejor cómo es el carácter del Padre y cómo desea tratarme”.</p>
+  </div>
+
+  <div id="motiva2" class="sub-contenido">
+    <p><strong>Dinámica:</strong> El maestro invita a cada persona completar una frase breve: “Reconozco que Dios me habla cuando…” o “Necesito escuchar más a Dios en…”. Cada participante responde desde su asiento, sin dividir el grupo y usando únicamente su Biblia o el folleto de estudio.</p>
+    <p class="ejemplo">Ejemplo 1: “Reconozco que Dios me habla cuando un pasaje bíblico corrige con claridad una actitud de mi vida”.</p>
+    <p class="ejemplo">Ejemplo 2: “Necesito escuchar más a Dios en las decisiones que tomo con mi familia y en mi servicio a la iglesia”.</p>
+  </div>
+
+  <div id="explora" class="contenido">
+    <button class="sub-boton" onclick="mostrarDetalle('explora1')">📖 Textos clave</button>
+    <button class="sub-boton" onclick="mostrarDetalle('explora2')">💬 Preguntas de estudio</button>
+    <button class="volver" onclick="volverInicio()">⬅️ Volver</button>
+  </div>
+
+  <div id="explora1" class="sub-contenido">
+    <p>
+      Génesis 1:27-28<br/>
+      <span class="desarrollo">Dios creó al ser humano a su imagen y le habló directamente, dándole identidad, bendición y responsabilidad. La comunicación formaba parte de la relación original entre el Creador y sus hijos.</span><br/>
+
+      Génesis 2:15-17<br/>
+      <span class="desarrollo">Dios dio instrucciones claras a Adán acerca del cuidado del jardín y del árbol prohibido. Su palabra expresaba amor, libertad y límites destinados a proteger la vida.</span><br/>
+
+      Génesis 3:1-8<br/>
+      <span class="desarrollo">La serpiente distorsionó lo que Dios había dicho y presentó la desobediencia como algo deseable. Después de pecar, Adán y Eva sintieron vergüenza, miedo y trataron de esconderse de la presencia divina.</span><br/>
+
+      Génesis 3:9-13<br/>
+      <span class="desarrollo">Dios tomó la iniciativa y preguntó: “¿Dónde estás?”. No buscaba información, sino restablecer la comunicación con sus hijos caídos y conducirlos a reconocer lo ocurrido.</span><br/>
+
+      Lucas 15:11-32<br/>
+      <span class="desarrollo">La parábola del hijo pródigo muestra a un Padre que espera, busca la restauración y recibe al pecador arrepentido. Como en el Edén, Dios no abandona al que se aleja, sino que desea recuperar la relación.</span><br/>
+
+      Génesis 3:14-24<br/>
+      <span class="desarrollo">El pecado produjo dolor, trabajo agotador, muerte y expulsión del jardín. Sin embargo, Dios anunció la futura victoria del Salvador y cubrió a la primera pareja, dejando una promesa de redención.</span><br/>
+
+      Éxodo 19:16-22<br/>
+      <span class="desarrollo">En el Sinaí, la santidad de Dios hizo necesaria una distancia entre él y el pueblo pecador. El pasaje muestra cuánto había cambiado la comunicación directa que existía antes de la caída.</span><br/>
+
+      Hebreos 1:1-2<br/>
+      <span class="desarrollo">Dios habló de muchas maneras por medio de los profetas, pero su revelación suprema llegó en Jesucristo. El Hijo muestra plenamente quién es Dios y cuál es su voluntad salvadora.</span><br/>
+
+      2 Timoteo 3:16-17<br/>
+      <span class="desarrollo">Las Escrituras son inspiradas por Dios y sirven para enseñar, corregir e instruir. Por medio de la Biblia, el Creador continúa preparando a su pueblo para toda buena obra.</span><br/>
+
+      Juan 14:7-9<br/>
+      <span class="desarrollo">Jesús declaró que quien lo ha visto ha visto al Padre. Su vida, sus palabras y sus obras son la revelación más clara del carácter amoroso de Dios.</span><br/>
+
+      Juan 10:27-30<br/>
+      <span class="desarrollo">Las ovejas de Cristo oyen su voz, lo conocen y lo siguen. Escuchar a Dios implica responder con confianza y obediencia a la dirección de Jesús.</span><br/>
+
+      Juan 16:13<br/>
+      <span class="desarrollo">El Espíritu Santo guía a los creyentes a toda la verdad. Su ministerio continúa la comunicación divina y dirige siempre hacia Cristo y la Palabra revelada.</span>
+    </p>
+
+    <p class="nota"><strong>Resumen de la lección:</strong> El mensaje central de esta semana es que <strong>el Creador desea comunicarse personalmente con sus hijos y, aunque el pecado quebró la relación original, Dios tomó la iniciativa para restaurarla</strong>. En Génesis 1:27-28 y 2:15-17, vemos que Adán y Eva fueron creados a imagen de Dios y podían escuchar directamente sus instrucciones en un ambiente de confianza y comunión. Sin embargo, Génesis 3:1-8 muestra que Satanás distorsionó la palabra divina, la primera pareja desobedeció y comenzó a esconderse por culpa y vergüenza. Aun así, Dios preguntó “¿Dónde estás?” (Gén. 3:9), no porque ignorara su ubicación, sino porque quería volver a encontrarse con ellos. Lucas 15:11-32 refleja este mismo amor en el padre que espera y recibe al hijo perdido. Génesis 3:14-24 explica que el pecado trajo separación, sufrimiento y muerte, pero también registra la primera promesa del Salvador. Desde entonces, Dios siguió hablando mediante la creación, los profetas y las Escrituras. Hebreos 1:1-2 afirma que la revelación más completa llegó por medio de su Hijo; Juan 14:7-9 enseña que en Jesús vemos al Padre, y Juan 10:27-30 recuerda que sus ovejas escuchan su voz y lo siguen. Finalmente, 2 Timoteo 3:16-17 y Juan 16:13 muestran que Dios continúa orientándonos mediante la Biblia y la obra del Espíritu Santo. Así, la lección nos invita a dejar de escondernos, escuchar con humildad y responder a la voz del Dios que todavía busca, habla, salva y restaura.</p>
+  </div>
+
+  <div id="explora2" class="sub-contenido">
+    <ul>
+      <li>Según Génesis 1:27-28; 2:15-17 y 3:9, ¿cómo era la comunicación entre Dios y los seres humanos antes de la caída?</li>
+      <p class="ejemplo">Ejemplo 1: “Era personal y directa; Dios los bendecía, les daba responsabilidades y ellos podían escuchar sus instrucciones”.</p>
+      <p class="ejemplo">Ejemplo 2: “La relación estaba basada en confianza, libertad y comunión, no en miedo ni ocultamiento”.</p>
+
+      <li>¿Qué estrategias utilizó la serpiente en Génesis 3:1-8 para distorsionar la palabra de Dios?</li>
+      <p class="ejemplo">Ejemplo 1: “Puso en duda lo que Dios había dicho y ocultó las consecuencias de la desobediencia”.</p>
+      <p class="ejemplo">Ejemplo 2: “Presentó el pecado como algo atractivo y prometió una sabiduría independiente de Dios”.</p>
+
+      <li>¿Qué revela la pregunta “¿Dónde estás?” de Génesis 3:9 acerca del carácter de Dios?</li>
+      <p class="ejemplo">Ejemplo 1: “Revela que Dios busca al pecador y desea restaurar la comunicación interrumpida”.</p>
+      <p class="ejemplo">Ejemplo 2: “Muestra que el Señor no abandona a sus hijos, aunque ellos intenten esconderse”.</p>
+
+      <li>¿De qué maneras habla Dios a la humanidad según Hebreos 1:1-2; 2 Timoteo 3:16-17 y Juan 14:7-9?</li>
+      <p class="ejemplo">Ejemplo 1: “Ha hablado mediante los profetas y las Escrituras, pero de manera suprema por medio de Jesús”.</p>
+      <p class="ejemplo">Ejemplo 2: “La Biblia comunica su voluntad y Cristo revela con claridad el carácter del Padre”.</p>
+
+      <li>¿Qué significa escuchar la voz de Jesús según Juan 10:27-30?</li>
+      <p class="ejemplo">Ejemplo 1: “Significa reconocer su enseñanza, confiar en él y seguirlo con obediencia”.</p>
+      <p class="ejemplo">Ejemplo 2: “También implica mantener una relación constante con Cristo y no seguir voces que contradicen su Palabra”.</p>
+    </ul>
+  </div>
+
+  <div id="aplica" class="contenido">
+    <button class="sub-boton" onclick="mostrarDetalle('aplica1')">🧠 Reflexión personal</button>
+    <button class="sub-boton" onclick="mostrarDetalle('aplica2')">✨ Actividad de compromiso</button>
+    <button class="volver" onclick="volverInicio()">⬅️ Volver</button>
+  </div>
+
+  <div id="aplica1" class="sub-contenido">
+    <p><strong>Reflexión:</strong> ¿En qué área estás evitando escuchar a Dios o tratando de esconderte de él: una decisión, una culpa, un hábito, una relación dañada o una responsabilidad espiritual? ¿Qué paso concreto necesitas dar?</p>
+    <p class="ejemplo">Ejemplo 1: “Necesito dejar de justificar una actitud y permitir que la Biblia me corrija con claridad”.</p>
+    <p class="ejemplo">Ejemplo 2: “Debo acercarme a Dios con sinceridad, confesar mi culpa y confiar en que él quiere restaurarme”.</p>
+  </div>
+
+  <div id="aplica2" class="sub-contenido">
+    <p><strong>Actividad guiada:</strong><br/>
+      1) El maestro pide que todos guarden un momento de silencio y piensen en una palabra o mensaje de Dios estudiado durante la semana que necesitan obedecer.<br/>
+      2) El maestro invita a cada persona completar una frase breve: “Señor, hoy escucho tu voz cuando me dices…” o “Señor, ya no quiero esconderme de ti en…”.<br/>
+      3) El maestro cierra con una oración general pidiendo sensibilidad espiritual, sinceridad, obediencia y confianza en la gracia de Cristo.</p>
+    <p class="ejemplo">Ejemplo 1: “Señor, hoy escucho tu voz cuando me dices que vuelva a ti y confíe en tu perdón”.</p>
+    <p class="ejemplo">Ejemplo 2: “Señor, ya no quiero esconderme de ti en una relación que necesito restaurar”.</p>
+  </div>
+
+  <div id="crea" class="contenido">
+    <button class="sub-boton" onclick="mostrarDetalle('crea1')">📌 Desafío semanal</button>
+    <button class="sub-boton" onclick="mostrarDetalle('crea2')">✍️ Actividad grupal final</button>
+    <button class="volver" onclick="volverInicio()">⬅️ Volver</button>
+  </div>
+
+  <div id="crea1" class="sub-contenido">
+    <p><strong>Desafío:</strong> Durante esta semana, aparta cada día unos minutos para leer un pasaje de la Biblia, identificar qué revela acerca de Dios y responder con una acción concreta. Comparte después una de esas enseñanzas con una persona que necesite ánimo o dirección.</p>
+    <p class="ejemplo">Ejemplo 1: “Leeré Juan 10:27-30 y responderé obedeciendo una enseñanza de Jesús que he estado postergando”.</p>
+    <p class="ejemplo">Ejemplo 2: “Compartiré con alguien Génesis 3:9 para recordarle que Dios sigue buscando a quienes se sienten lejos de él”.</p>
+  </div>
+
+  <div id="crea2" class="sub-contenido">
+    <p><strong>Actividad grupal:</strong><br/>
+      El maestro invita a cada persona completar una frase breve: “Como grupo queremos escuchar al Creador…”. Luego reúne las ideas principales y todos repiten juntos una declaración final de compromiso.</p>
+    <p class="ejemplo">Ejemplo 1: “Como grupo queremos escuchar al Creador estudiando la Biblia con oración y humildad”.</p>
+    <p class="ejemplo">Ejemplo 2: “Como grupo queremos escuchar al Creador siguiendo a Jesús y compartiendo su mensaje con quienes se sienten lejos de Dios”.</p>
+  </div>
+
+  <div class="marca">Educa144k</div>
+
+  <script>
+    function mostrarSeccion(id){ ocultarTodo(); document.getElementById('inicio').style.display='none'; document.getElementById(id).style.display='block'; }
+    function mostrarDetalle(id){ document.querySelectorAll('.sub-contenido').forEach(el => el.style.display='none'); document.getElementById(id).style.display='block'; }
+    function volverInicio(){ ocultarTodo(); document.getElementById('inicio').style.display='block'; }
+    function ocultarTodo(){ document.querySelectorAll('.contenido, .sub-contenido').forEach(el => el.style.display='none'); }
+  </script>
+</body>
+</html>
